@@ -2,10 +2,10 @@ div {
   padding: 0 0 10px 0;
 }
 
-.last {
-  padding: 0;
-}
-
 fieldset {
   margin-bottom: 20px;
+}
+
+.last {
+  padding: 0;
 }
