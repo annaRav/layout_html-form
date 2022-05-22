@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset>
@@ -131,10 +130,15 @@
         </div>
         <div>
           <label for="cars">What are your favorite brand of cars?</label>
-          <textarea
-            name="favorite car"
-            id="cars"
-          ></textarea>
+          <select 
+            name="favorite-car" 
+            id="cars" 
+            multiple
+          >
+            <option value="bmw" selected>BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
+          </select>
         </div>
         <div>
           <label for="range">How do you rate our work?</label>
@@ -159,7 +163,6 @@
           <label for="recommendation">Would you recommend us?</label>
           <select
             name="recommendation"
-            multiple
             id="recommendation"
           >
             <option value="Yes" selected>Yes</option>
